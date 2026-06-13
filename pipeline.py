@@ -58,31 +58,31 @@ if __name__== "__main__":
     config = load_config("./config/config.yaml")
     setup_logging(os.path.join(config["logs_dir"], "pipeline.log"))
     
-    # for d in ["fastqc", "trimmed_fastqc", "bam", "featurecounts"]:
-    #     os.makedirs(os.path.join(config["output_dir"], d), exist_ok=True)
-    # os.makedirs(config["trimmed_dir"], exist_ok=True)
+    for d in ["fastqc", "trimmed_fastqc", "bam", "featurecounts"]:
+        os.makedirs(os.path.join(config["output_dir"], d), exist_ok=True)
+    os.makedirs(config["trimmed_dir"], exist_ok=True)
 
-    # metadata = pd.read_csv(config["metadata"])
-    # url_combined = metadata["r1_url"].tolist() + metadata["r2_url"].tolist()
+    metadata = pd.read_csv(config["metadata"])
+    url_combined = metadata["r1_url"].tolist() + metadata["r2_url"].tolist()
     
     # for i in url_combined:
     #     download_sample(i, config["input_dir"])
 
-    # for fastq_file in glob.glob(os.path.join(config["input_dir"], "*.fastq.gz")):
-    #     run_fastqc(fastq_file, os.path.join(config["output_dir"], "fastqc"))
+    for fastq_file in glob.glob(os.path.join(config["input_dir"], "*.fastq.gz")):
+        run_fastqc(fastq_file, os.path.join(config["output_dir"], "fastqc"))
     
-    #logg.info("=" * 50)
+    logg.info("=" * 50)
 
-    # for r1 in glob.glob(os.path.join(config["input_dir"], "*_R1.fastq.gz")):
-    #     r2 = r1.replace("_R1", "_R2")
-    #     run_trimmomatic(r1, r2, config["trimmed_dir"], config["adapter_file"])
+    for r1 in glob.glob(os.path.join(config["input_dir"], "*_R1.fastq.gz")):
+        r2 = r1.replace("_R1", "_R2")
+        run_trimmomatic(r1, r2, config["trimmed_dir"], config["adapter_file"])
 
-    #logg.info("=" * 50)
+    logg.info("=" * 50)
 
-    # for fastq_file in glob.glob(os.path.join(config["trimmed_dir"], "*_paired.fastq.gz")):
-    #     run_fastqc(fastq_file, os.path.join(config["output_dir"], "trimmed_fastqc"))
+    for fastq_file in glob.glob(os.path.join(config["trimmed_dir"], "*_paired.fastq.gz")):
+        run_fastqc(fastq_file, os.path.join(config["output_dir"], "trimmed_fastqc"))
     
-    #run_star_index(config["fasta_file"], config["annotation_file"], config["STAR_index"], str(config["threads"]))
+    run_star_index(config["fasta_file"], config["annotation_file"], config["STAR_index"], str(config["threads"]))
 
     logg.info("=" * 50)
 
@@ -90,16 +90,22 @@ if __name__== "__main__":
         r2 = r1.replace("_R1", "_R2")
         run_star_align(r1, r2, config["STAR_index"], os.path.join(config["output_dir"], "bam", os.path.basename(r1).replace("_R1_paired.fastq.gz", "_")), str(config["threads"]))
 
-    # for sample_bam in glob.glob(os.path.join(config["output_dir"], "bam/*.bam")):
-    #     run_samtools_index(sample_bam)
+    logg.info("=" * 50)
 
-    # for sample_bam in glob.glob(os.path.join(config["output_dir"], "bam/*.bam")):
-    #     run_featurecounts(sample_bam, 
-    #                       config["annotation_file"], 
-    #                       os.path.join(config["output_dir"], "featurecounts"))
+    for sample_bam in glob.glob(os.path.join(config["output_dir"], "bam/*.bam")):
+        run_samtools_index(sample_bam)
 
-    # run_deseq2(
-    #     os.path.join(config["output_dir"], "featurecounts"), 
-    #     os.path.join(config["output_dir"], "deseq2"), 
-    #     config["deseq2_script"], config["metadata"]
-    #     )
+    logg.info("=" * 50)
+
+    for sample_bam in glob.glob(os.path.join(config["output_dir"], "bam/*.bam")):
+        run_featurecounts(sample_bam, 
+                          config["annotation_file"], 
+                          os.path.join(config["output_dir"], "featurecounts"))
+        
+    logg.info("=" * 50)
+
+    run_deseq2(
+        os.path.join(config["output_dir"], "featurecounts"), 
+        os.path.join(config["output_dir"], "deseq2"), 
+        config["deseq2_script"], config["metadata"]
+        )
