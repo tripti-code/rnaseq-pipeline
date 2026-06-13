@@ -1,0 +1,3 @@
+sample,condition,r1_url,r2_url
+SRR5364317,control,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR536/007/SRR5364317/SRR5364317_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR536/007/SRR5364317/SRR5364317_2.fastq.gz
+SRR5364321,treatment,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR536/001/SRR5364321/SRR5364321_1.fastq.gz,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR536/001/SRR5364321/SRR5364321_2.fastq.gz

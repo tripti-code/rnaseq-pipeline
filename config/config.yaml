@@ -1,0 +1,16 @@
+threads: 8
+input_dir: data/raw/
+trimmed_dir: data/interim/
+output_dir: data/results/
+ram_gb: 8
+adapter_file: /Users/tripti/Alex_Soupir_tutorial/miniconda3/share/trimmomatic/adapters/TruSeq3-PE.fa
+trimmomatic: /Users/tripti/Alex_Soupir_tutorial/miniconda3/bin/trimmomatic
+star: /Users/tripti/Alex_Soupir_tutorial/miniconda3/bin/STAR
+samtools: /Users/tripti/Alex_Soupir_tutorial/miniconda3/bin/samtools
+featurecounts: /Users/tripti/Alex_Soupir_tutorial/miniconda3/bin/featureCounts
+fasta_file: data/reference/Mus_musculus.GRCm39.dna.chromosome.19.fa 
+annotation_file: data/reference/Mus_musculus.GRCm39.109.gtf
+STAR_index: data/reference/star_index
+logs_dir: logs/
+deseq2_script: scripts/deseq2.R
+metadata: config/metadata.csv

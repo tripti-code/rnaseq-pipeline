@@ -1,0 +1,5 @@
+data/raw/
+data/interim/
+data/results/
+data/reference/
+logs/
