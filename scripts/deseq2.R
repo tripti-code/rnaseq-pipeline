@@ -15,7 +15,8 @@ for (file in count_files) {
     df <- read.table(file, skip=2, header=TRUE)
     counts <- df[, ncol(df)]
     names(counts) <- df[, 1]
-    count_list[[file]] <- counts
+    sample_name <- gsub("_Aligned.sortedByCoord.out.txt", "", basename(file))
+    count_list[[sample_name]] <- counts
     }
 
 counts_matrix <- do.call(cbind, count_list)
@@ -34,6 +35,6 @@ dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 write.csv(results, file.path(output_dir, "results.csv"))
 
-write.csv(counts(dds, normalized=TRUE, file.path(output_dir, "normalized_counts.csv")))
+write.csv(counts(dds, normalized=TRUE), file.path(output_dir, "normalized_counts.csv"))
 
 print("DESeq2 analysis is completed.")

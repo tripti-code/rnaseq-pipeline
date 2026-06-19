@@ -1,0 +1,842 @@
+{
+    "GSM2125072": {
+        "accession": "GSM2125072",
+        "platform": {
+            "accession": "GPL20073",
+            "title": "Illumina HiSeq 2000 (Saccharomyces cerevisiae S288c)"
+        },
+        "samples": {
+            "SRS1399987": {
+                "accession": "SRS1399987",
+                "title": "AMB only rep 1",
+                "organism": "Saccharomyces cerevisiae S288C",
+                "attributes": {
+                    "strain": "S288C",
+                    "treatment": "amphotericin B (0.03 \u00b5g/mL)",
+                    "growth time": "60 minutes at ID20",
+                    "INSDC secondary accession": "SRS1399987",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Saccharomyces cerevisiae S288C",
+                    "source_name": "Saccharomyces cerevisiae S288C",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2016-12-05",
+                    "ENA-LAST-UPDATE": "2017-03-20"
+                },
+                "experiments": {
+                    "SRX1709853": {
+                        "accession": "SRX1709853",
+                        "title": "GSM2125072: AMB only rep 1; Saccharomyces cerevisiae S288C; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2000",
+                        "runs": {
+                            "SRR3396381": {
+                                "accession": "SRR3396381",
+                                "experiment": "SRX1709853",
+                                "study": "SRP073391",
+                                "sample": "SRS1399987",
+                                "title": "Illumina HiSeq 2000 paired end sequencing; GSM2125072: AMB only rep 1; Saccharomyces cerevisiae S288C; RNA-Seq",
+                                "attributes": {
+                                    "ENA-STATUS": "PUBLIC",
+                                    "ENA-FIRST-PUBLIC": "2016-12-06",
+                                    "ENA-LAST-UPDATE": "2019-03-23",
+                                    "ENA-BASE-COUNT": 1697917868,
+                                    "ENA-SPOT-COUNT": 8405534
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR3396381",
+                                            "filename": "SRR3396381_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 669296728,
+                                            "filenumber": 1,
+                                            "md5": "6f4e2818269d8ce7e2252b32a60370f9",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/001/SRR3396381/SRR3396381_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396381",
+                                            "filename": "SRR3396381_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 680167572,
+                                            "filenumber": 2,
+                                            "md5": "95ab7973e3da3dca92746cbd5fc3903d",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/001/SRR3396381/SRR3396381_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR3396381",
+                                            "filename": "YWL_2I_ACTTGA_L003_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR3396381/YWL_2I_ACTTGA_L003_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396381",
+                                            "filename": "YWL_2I_ACTTGA_L003_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-5/SRR3396381/YWL_2I_ACTTGA_L003_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396381",
+                                            "filename": "SRR3396381",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR3396381/SRR3396381"
+                                        },
+                                        {
+                                            "accession": "SRR3396381",
+                                            "filename": "SRR3396381.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR3396381/SRR3396381.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR3396381",
+                                            "filename": "SRR3396381.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR3396381/SRR3396381.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR3396381",
+                                            "filename": "SRR3396381.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR003/396/SRR3396381/SRR3396381.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GSM2125073": {
+        "accession": "GSM2125073",
+        "platform": {
+            "accession": "GPL20073",
+            "title": "Illumina HiSeq 2000 (Saccharomyces cerevisiae S288c)"
+        },
+        "samples": {
+            "SRS1399988": {
+                "accession": "SRS1399988",
+                "title": "AMB only rep 2",
+                "organism": "Saccharomyces cerevisiae S288C",
+                "attributes": {
+                    "strain": "S288C",
+                    "treatment": "amphotericin B (0.03 \u00b5g/mL)",
+                    "growth time": "60 minutes at ID20",
+                    "INSDC secondary accession": "SRS1399988",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Saccharomyces cerevisiae S288C",
+                    "source_name": "Saccharomyces cerevisiae S288C",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2016-12-05",
+                    "ENA-LAST-UPDATE": "2017-03-20"
+                },
+                "experiments": {
+                    "SRX1709854": {
+                        "accession": "SRX1709854",
+                        "title": "GSM2125073: AMB only rep 2; Saccharomyces cerevisiae S288C; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2000",
+                        "runs": {
+                            "SRR3396382": {
+                                "accession": "SRR3396382",
+                                "experiment": "SRX1709854",
+                                "study": "SRP073391",
+                                "sample": "SRS1399988",
+                                "title": "Illumina HiSeq 2000 paired end sequencing; GSM2125073: AMB only rep 2; Saccharomyces cerevisiae S288C; RNA-Seq",
+                                "attributes": {
+                                    "ENA-STATUS": "PUBLIC",
+                                    "ENA-FIRST-PUBLIC": "2016-12-06",
+                                    "ENA-LAST-UPDATE": "2019-03-23",
+                                    "ENA-BASE-COUNT": 1970698870,
+                                    "ENA-SPOT-COUNT": 9755935
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR3396382",
+                                            "filename": "SRR3396382_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 781154812,
+                                            "filenumber": 1,
+                                            "md5": "6f40cf274d94397b2cd6bf79a6b29f73",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/002/SRR3396382/SRR3396382_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396382",
+                                            "filename": "SRR3396382_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 791042140,
+                                            "filenumber": 2,
+                                            "md5": "4e201bdde32bb73957446ef05a460195",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/002/SRR3396382/SRR3396382_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR3396382",
+                                            "filename": "YWL_4E_GTCCGC_L003_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-6/SRR3396382/YWL_4E_GTCCGC_L003_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396382",
+                                            "filename": "YWL_4E_GTCCGC_L003_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR3396382/YWL_4E_GTCCGC_L003_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396382",
+                                            "filename": "SRR3396382",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR3396382/SRR3396382"
+                                        },
+                                        {
+                                            "accession": "SRR3396382",
+                                            "filename": "SRR3396382.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-9/SRR3396382/SRR3396382.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR3396382",
+                                            "filename": "SRR3396382.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR3396382/SRR3396382.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR3396382",
+                                            "filename": "SRR3396382.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR003/396/SRR3396382/SRR3396382.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GSM2125074": {
+        "accession": "GSM2125074",
+        "platform": {
+            "accession": "GPL20073",
+            "title": "Illumina HiSeq 2000 (Saccharomyces cerevisiae S288c)"
+        },
+        "samples": {
+            "SRS1399986": {
+                "accession": "SRS1399986",
+                "title": "AMB only rep 3",
+                "organism": "Saccharomyces cerevisiae S288C",
+                "attributes": {
+                    "strain": "S288C",
+                    "treatment": "amphotericin B (0.03 \u00b5g/mL)",
+                    "growth time": "60 minutes at ID20",
+                    "INSDC secondary accession": "SRS1399986",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Saccharomyces cerevisiae S288C",
+                    "source_name": "Saccharomyces cerevisiae S288C",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2016-12-05",
+                    "ENA-LAST-UPDATE": "2017-03-20"
+                },
+                "experiments": {
+                    "SRX1709855": {
+                        "accession": "SRX1709855",
+                        "title": "GSM2125074: AMB only rep 3; Saccharomyces cerevisiae S288C; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2000",
+                        "runs": {
+                            "SRR3396384": {
+                                "accession": "SRR3396384",
+                                "experiment": "SRX1709855",
+                                "study": "SRP073391",
+                                "sample": "SRS1399986",
+                                "title": "Illumina HiSeq 2000 paired end sequencing; GSM2125074: AMB only rep 3; Saccharomyces cerevisiae S288C; RNA-Seq",
+                                "attributes": {
+                                    "ENA-STATUS": "PUBLIC",
+                                    "ENA-FIRST-PUBLIC": "2016-12-06",
+                                    "ENA-LAST-UPDATE": "2019-03-23",
+                                    "ENA-BASE-COUNT": 2055508570,
+                                    "ENA-SPOT-COUNT": 10175785
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR3396384",
+                                            "filename": "SRR3396384_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 815031018,
+                                            "filenumber": 1,
+                                            "md5": "5433bd6cdbd38e378122786debf5df6c",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/004/SRR3396384/SRR3396384_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396384",
+                                            "filename": "SRR3396384_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 822459056,
+                                            "filenumber": 2,
+                                            "md5": "36e2ff7355e8a548748c931061afa186",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/004/SRR3396384/SRR3396384_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR3396384",
+                                            "filename": "YWL_9E_CCGTCC_L004_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-7/SRR3396384/YWL_9E_CCGTCC_L004_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396384",
+                                            "filename": "YWL_9E_CCGTCC_L004_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-5/SRR3396384/YWL_9E_CCGTCC_L004_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396384",
+                                            "filename": "SRR3396384",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR3396384/SRR3396384"
+                                        },
+                                        {
+                                            "accession": "SRR3396384",
+                                            "filename": "SRR3396384.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR3396384/SRR3396384.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR3396384",
+                                            "filename": "SRR3396384.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR3396384/SRR3396384.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR3396384",
+                                            "filename": "SRR3396384.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR003/396/SRR3396384/SRR3396384.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GSM2125075": {
+        "accession": "GSM2125075",
+        "platform": {
+            "accession": "GPL20073",
+            "title": "Illumina HiSeq 2000 (Saccharomyces cerevisiae S288c)"
+        },
+        "samples": {
+            "SRS1399985": {
+                "accession": "SRS1399985",
+                "title": "Matched control for AMB only rep 1",
+                "organism": "Saccharomyces cerevisiae S288C",
+                "attributes": {
+                    "strain": "S288C",
+                    "treatment": "control",
+                    "growth time": "60 minutes at ID20",
+                    "INSDC secondary accession": "SRS1399985",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Saccharomyces cerevisiae S288C",
+                    "source_name": "Saccharomyces cerevisiae S288C",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2016-12-05",
+                    "ENA-LAST-UPDATE": "2017-03-20"
+                },
+                "experiments": {
+                    "SRX1709856": {
+                        "accession": "SRX1709856",
+                        "title": "GSM2125075: Matched control for AMB only rep 1; Saccharomyces cerevisiae S288C; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2000",
+                        "runs": {
+                            "SRR3396385": {
+                                "accession": "SRR3396385",
+                                "experiment": "SRX1709856",
+                                "study": "SRP073391",
+                                "sample": "SRS1399985",
+                                "title": "Illumina HiSeq 2000 paired end sequencing; GSM2125075: Matched control for AMB only rep 1; Saccharomyces cerevisiae S288C; RNA-Seq",
+                                "attributes": {
+                                    "ENA-STATUS": "PUBLIC",
+                                    "ENA-FIRST-PUBLIC": "2016-12-06",
+                                    "ENA-LAST-UPDATE": "2019-03-23",
+                                    "ENA-BASE-COUNT": 1944345142,
+                                    "ENA-SPOT-COUNT": 9625471
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR3396385",
+                                            "filename": "SRR3396385_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 765392684,
+                                            "filenumber": 1,
+                                            "md5": "737f362e06aed579e8e731cdf9da9bde",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/005/SRR3396385/SRR3396385_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396385",
+                                            "filename": "SRR3396385_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 776514673,
+                                            "filenumber": 2,
+                                            "md5": "7fdcc26acc01ef163797485e74c08186",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/005/SRR3396385/SRR3396385_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR3396385",
+                                            "filename": "YWL_3F_AGTCAA_L003_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-7/SRR3396385/YWL_3F_AGTCAA_L003_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396385",
+                                            "filename": "YWL_3F_AGTCAA_L003_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR3396385/YWL_3F_AGTCAA_L003_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396385",
+                                            "filename": "SRR3396385",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR3396385/SRR3396385"
+                                        },
+                                        {
+                                            "accession": "SRR3396385",
+                                            "filename": "SRR3396385.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR3396385/SRR3396385.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR3396385",
+                                            "filename": "SRR3396385.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR3396385/SRR3396385.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR3396385",
+                                            "filename": "SRR3396385.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR003/396/SRR3396385/SRR3396385.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GSM2125076": {
+        "accession": "GSM2125076",
+        "platform": {
+            "accession": "GPL20073",
+            "title": "Illumina HiSeq 2000 (Saccharomyces cerevisiae S288c)"
+        },
+        "samples": {
+            "SRS1399984": {
+                "accession": "SRS1399984",
+                "title": "Matched control for AMB only rep 2",
+                "organism": "Saccharomyces cerevisiae S288C",
+                "attributes": {
+                    "strain": "S288C",
+                    "treatment": "control",
+                    "growth time": "60 minutes at ID20",
+                    "INSDC secondary accession": "SRS1399984",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Saccharomyces cerevisiae S288C",
+                    "source_name": "Saccharomyces cerevisiae S288C",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2016-12-05",
+                    "ENA-LAST-UPDATE": "2017-03-20"
+                },
+                "experiments": {
+                    "SRX1709857": {
+                        "accession": "SRX1709857",
+                        "title": "GSM2125076: Matched control for AMB only rep 2; Saccharomyces cerevisiae S288C; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2000",
+                        "runs": {
+                            "SRR3396386": {
+                                "accession": "SRR3396386",
+                                "experiment": "SRX1709857",
+                                "study": "SRP073391",
+                                "sample": "SRS1399984",
+                                "title": "Illumina HiSeq 2000 paired end sequencing; GSM2125076: Matched control for AMB only rep 2; Saccharomyces cerevisiae S288C; RNA-Seq",
+                                "attributes": {
+                                    "ENA-STATUS": "PUBLIC",
+                                    "ENA-FIRST-PUBLIC": "2016-12-06",
+                                    "ENA-LAST-UPDATE": "2019-03-23",
+                                    "ENA-BASE-COUNT": 2081032684,
+                                    "ENA-SPOT-COUNT": 10302142
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR3396386",
+                                            "filename": "SRR3396386_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 816554593,
+                                            "filenumber": 1,
+                                            "md5": "737be2c27960cd5163d8d270dc8966d9",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/006/SRR3396386/SRR3396386_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396386",
+                                            "filename": "SRR3396386_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 828166555,
+                                            "filenumber": 2,
+                                            "md5": "4690b03ceede44ef4c3551f968e3104f",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/006/SRR3396386/SRR3396386_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR3396386",
+                                            "filename": "YWL_5G_ATTCCT_L004_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-5/SRR3396386/YWL_5G_ATTCCT_L004_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396386",
+                                            "filename": "YWL_5G_ATTCCT_L004_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-6/SRR3396386/YWL_5G_ATTCCT_L004_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396386",
+                                            "filename": "SRR3396386",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR3396386/SRR3396386"
+                                        },
+                                        {
+                                            "accession": "SRR3396386",
+                                            "filename": "SRR3396386.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR3396386/SRR3396386.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR3396386",
+                                            "filename": "SRR3396386.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR3396386/SRR3396386.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR3396386",
+                                            "filename": "SRR3396386.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR003/396/SRR3396386/SRR3396386.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GSM2125077": {
+        "accession": "GSM2125077",
+        "platform": {
+            "accession": "GPL20073",
+            "title": "Illumina HiSeq 2000 (Saccharomyces cerevisiae S288c)"
+        },
+        "samples": {
+            "SRS1399983": {
+                "accession": "SRS1399983",
+                "title": "Matched control for AMB only rep 3",
+                "organism": "Saccharomyces cerevisiae S288C",
+                "attributes": {
+                    "strain": "S288C",
+                    "treatment": "control",
+                    "growth time": "60 minutes at ID20",
+                    "INSDC secondary accession": "SRS1399983",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Saccharomyces cerevisiae S288C",
+                    "source_name": "Saccharomyces cerevisiae S288C",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2016-12-05",
+                    "ENA-LAST-UPDATE": "2017-03-20"
+                },
+                "experiments": {
+                    "SRX1709858": {
+                        "accession": "SRX1709858",
+                        "title": "GSM2125077: Matched control for AMB only rep 3; Saccharomyces cerevisiae S288C; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2000",
+                        "runs": {
+                            "SRR3396387": {
+                                "accession": "SRR3396387",
+                                "experiment": "SRX1709858",
+                                "study": "SRP073391",
+                                "sample": "SRS1399983",
+                                "title": "Illumina HiSeq 2000 paired end sequencing; GSM2125077: Matched control for AMB only rep 3; Saccharomyces cerevisiae S288C; RNA-Seq",
+                                "attributes": {
+                                    "ENA-STATUS": "PUBLIC",
+                                    "ENA-FIRST-PUBLIC": "2016-12-06",
+                                    "ENA-LAST-UPDATE": "2019-03-23",
+                                    "ENA-BASE-COUNT": 2019423896,
+                                    "ENA-SPOT-COUNT": 9997148
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR3396387",
+                                            "filename": "SRR3396387_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 796139461,
+                                            "filenumber": 1,
+                                            "md5": "92313283d775094f04a4e05a18af9d10",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/007/SRR3396387/SRR3396387_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396387",
+                                            "filename": "SRR3396387_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 808975406,
+                                            "filenumber": 2,
+                                            "md5": "d8e91230607613738bf33df722ffc03f",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR339/007/SRR3396387/SRR3396387_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR3396387",
+                                            "filename": "YWL_8A_GGCTAC_L004_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-6/SRR3396387/YWL_8A_GGCTAC_L004_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396387",
+                                            "filename": "YWL_8A_GGCTAC_L004_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-7/SRR3396387/YWL_8A_GGCTAC_L004_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR3396387",
+                                            "filename": "SRR3396387",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR3396387/SRR3396387"
+                                        },
+                                        {
+                                            "accession": "SRR3396387",
+                                            "filename": "SRR3396387.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-4/SRR3396387/SRR3396387.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR3396387",
+                                            "filename": "SRR3396387.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-104/SRR3396387/SRR3396387.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR3396387",
+                                            "filename": "SRR3396387.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR003/396/SRR3396387.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

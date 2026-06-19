@@ -1,6 +1,10 @@
+filereport_read_run_PRJNA318684.tsv
 data/raw/
 data/interim/
-data/results/
+data/results/bam/
+data/results/fastqc/
+data/results/trimmed_fastqc/
+data/results/featurecounts/
 data/reference/
 logs/
 *.out
