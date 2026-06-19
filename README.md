@@ -22,7 +22,7 @@ flowchart TD
     A[Raw FASTQs] --> B[FastQC - quality control before trimming]
     B --> C[Trimmomatic - adapter trimming + quality filtering]
     C --> D[FastQC - post-trim quality control]
-    D --> E[STAR - genome alignment]
+    C --> E[STAR - genome alignment]
     R[Reference FASTA + GTF] --> S[STAR - build genome index]
     S --> E
     E --> F[SAMtools - index BAM files]
